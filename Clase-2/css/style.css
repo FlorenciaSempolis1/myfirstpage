@@ -1,0 +1,42 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+
+
+body{
+    /*Propiedad: Valor*/
+    background-color:#1575a5;
+    color: aliceblue;
+}
+
+/* Estilos a la seccion principal*/
+
+.Div-container{
+    background-color: #19096c;
+    /* height: 799px; */
+    padding: 11px;
+}
+
+.div-hijo{
+    background-color: #714fdf;
+    padding: 5px;
+    height: 349px;
+    margin: 9px;
+    width: 31%;
+    border: 1px solid #ca4fdf;
+    text-align: center;
+    border-radius: 11px;
+    font-family: 'Agdasima', sans-serif;
+}
+img{
+    height: 251px;
+    width: 99%;
+    border-radius: 5px;
+}
+
+.Div-container > .div-hijo > p{
+    color: #ec8506;
+    font-size: larger;
+}
